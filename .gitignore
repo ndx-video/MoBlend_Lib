@@ -4,3 +4,5 @@ __pycache__/
 Thumbs.db
 mcps/
 *.mo.blend[0-9]*
+mcps/
+*.mo.blend[0-9]*

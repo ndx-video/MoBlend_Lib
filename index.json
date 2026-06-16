@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-06-16T01:21:51Z",
+  "base_url": "https://raw.githubusercontent.com/ndx-video/MoBlend_Lib/main",
+  "templates": [
+    {
+      "template_id": "parametric-cube-demo",
+      "name": "Parametric Cube Demo",
+      "category": "demo",
+      "description": "Parametric cube with full scalar types \u2014 Studio integration demo",
+      "version": "1.0.0",
+      "preview_url": "https://raw.githubusercontent.com/ndx-video/MoBlend_Lib/main/templates/demo/parametric-cube-demo/parametric-cube-demo.webp",
+      "download_url": "https://raw.githubusercontent.com/ndx-video/MoBlend_Lib/main/templates/demo/parametric-cube-demo/parametric-cube-demo.mo.blend",
+      "manifest_url": "https://raw.githubusercontent.com/ndx-video/MoBlend_Lib/main/templates/demo/parametric-cube-demo/parametric-cube-demo.manifest.json",
+      "parameters": [
+        {
+          "id": "intensity",
+          "type": "float",
+          "label": "Intensity"
+        },
+        {
+          "id": "label",
+          "type": "string",
+          "label": "Label"
+        },
+        {
+          "id": "tint",
+          "type": "color_rgba",
+          "label": "Tint"
+        },
+        {
+          "id": "enabled",
+          "type": "bool",
+          "label": "Enabled"
+        },
+        {
+          "id": "count",
+          "type": "int",
+          "label": "Count"
+        },
+        {
+          "id": "style_preset",
+          "type": "enum",
+          "label": "Style Preset"
+        }
+      ]
+    }
+  ]
+}

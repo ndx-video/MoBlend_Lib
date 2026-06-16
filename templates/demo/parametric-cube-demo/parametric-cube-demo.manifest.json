@@ -1,0 +1,94 @@
+{
+  "version": "1.0",
+  "template_id": "parametric-cube-demo",
+  "metadata": {
+    "name": "Parametric Cube Demo",
+    "author": "MoBlend Library",
+    "template_version": "1.0.0",
+    "category": "demo",
+    "description": "Parametric cube with full scalar types \u2014 Studio integration demo"
+  },
+  "parameters": [
+    {
+      "id": "intensity",
+      "type": "float",
+      "label": "Intensity",
+      "node_target": "M1TestGroup",
+      "socket_identifier": "Socket_2",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 5.0
+    },
+    {
+      "id": "label",
+      "type": "string",
+      "label": "Label",
+      "node_target": "M1TestGroup",
+      "socket_identifier": "Socket_3",
+      "default": "Hello"
+    },
+    {
+      "id": "tint",
+      "type": "color_rgba",
+      "label": "Tint",
+      "node_target": "M1TestGroup",
+      "socket_identifier": "Socket_4",
+      "default": "#33CC66"
+    },
+    {
+      "id": "enabled",
+      "type": "bool",
+      "label": "Enabled",
+      "node_target": "M1TestGroup",
+      "socket_identifier": "Socket_5",
+      "default": true
+    },
+    {
+      "id": "count",
+      "type": "int",
+      "label": "Count",
+      "node_target": "M1TestGroup",
+      "socket_identifier": "Socket_6",
+      "default": 3,
+      "min": 0,
+      "max": 20
+    },
+    {
+      "id": "style_preset",
+      "type": "enum",
+      "label": "Style Preset",
+      "node_target": "M1TestGroup",
+      "socket_identifier": "Socket_7",
+      "default": "plain",
+      "options": [
+        "plain",
+        "neon",
+        "glitch"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "index": 0,
+      "label": "Intro",
+      "start_time": 0.0,
+      "end_time": 2.0
+    },
+    {
+      "index": 1,
+      "label": "Hold",
+      "start_time": 2.0,
+      "end_time": 5.0
+    }
+  ],
+  "slot_presets": [
+    {
+      "id": "fade_in",
+      "label": "Fade In"
+    },
+    {
+      "id": "hold",
+      "label": "Hold"
+    }
+  ]
+}
